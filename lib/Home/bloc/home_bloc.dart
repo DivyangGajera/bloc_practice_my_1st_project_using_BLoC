@@ -86,6 +86,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
 
   FutureOr<void> addToCart(AddToCartEvent event, Emitter<HomeState> emit) {
     int quant = 1;
+    bool added = false;
     CartProducts itemAtPos = CartProducts(
         image_url: event.clickedProduct.image_url,
         name: event.clickedProduct.name,
@@ -93,20 +94,36 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         expiry_date: event.clickedProduct.expiry_date,
         price: event.clickedProduct.price);
 
-    if (!cartList.contains(itemAtPos)) {
+    if (cartList.length == 0) {
       cartList.add(itemAtPos);
     } else {
-      cartList.forEach(
-        (element) {
-          if (element.name == itemAtPos.name) {
-            quant = element.quantity;
-            quant++;
-            cartList.remove(itemAtPos);
+      for (int i = 0; i < cartList.length; i++) {
+        if (cartList[i].name == itemAtPos.name) {
+          CartProducts itemAtPos = CartProducts(
+              image_url: event.clickedProduct.image_url,
+              name: event.clickedProduct.name,
+              quantity: cartList[i].quantity + 1,
+              expiry_date: event.clickedProduct.expiry_date,
+              price: event.clickedProduct.price);
+          // debugPrint("$cartList");
+          cartList.remove(cartList[i]);
+          // debugPrint("$cartList");
+          cartList.add(itemAtPos);
+          // debugPrint("$cartList");
+          added = true;
+          debugPrint("quantity incresed ${itemAtPos.quantity}");
+        } else {
+          if ((i == cartList.length - 1) && !added) {
             cartList.add(itemAtPos);
+            debugPrint("added 1st time");
+            break;
           }
-        },
-      );
+        }
+        // debugPrint("$cartList");
+      }
     }
+
+    // debugPrint("list is : $itemAtPos");
     print("AddToCart Executed");
   }
 }

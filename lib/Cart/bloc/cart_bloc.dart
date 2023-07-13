@@ -19,5 +19,7 @@ class CartBloc extends Bloc<CartEvent, CartState> {
     emit(CartBuildingState());
     await Future.delayed(Duration(milliseconds: 500),
         () => emit(CartBuildSuccess(cart: cartList)));
+
+        
   }
 }

@@ -36,38 +36,29 @@ class _CartState extends State<Cart> {
           // TODO: implement listener
         },
         builder: (context, state) {
-          switch (state.runtimeType) {
-            
-            case CartBuildSuccess:
-              CartBuildSuccess successState = state as CartBuildSuccess;
-              if (successState.cart.length != 0) {
-                return ListView.builder(
-                  itemCount: successState.cart.length,
-                  itemBuilder: (context, index) {
-                    CartProducts itemAtPos = successState.cart[index];
-                    return Cart_tile_widget(
-                        cartBloc: cartBloc, tileData: itemAtPos);
-                  },
-                );
-              } else {
-                return Center(
-                  child: Text(
-                    "No products in cart",
-                    style: TextStyle(fontSize: 30),
-                  ),
-                );
-              }
-            case CartBuildingState:
-              return const Center(
-                child: CircularProgressIndicator(),
+          if (state is CartBuildSuccess) {
+            CartBuildSuccess successState = state as CartBuildSuccess;
+            if (successState.cart.length != 0) {
+              return ListView.builder(
+                itemCount: successState.cart.length,
+                itemBuilder: (context, index) {
+                  CartProducts itemAtPos = successState.cart[index];
+                  return Cart_tile_widget(
+                      cartBloc: cartBloc, tileData: itemAtPos);
+                },
               );
-            default:
-              return const Center(
+            } else {
+              return Center(
                 child: Text(
-                  "Some error occured",
-                  style: TextStyle(fontSize: 20),
+                  "No products in cart",
+                  style: TextStyle(fontSize: 30),
                 ),
               );
+            }
+          } else {
+            return const Center(
+              child: CircularProgressIndicator(),
+            );
           }
         },
       ),

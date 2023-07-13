@@ -58,7 +58,7 @@ class Cart_tile_widget extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                    "\n Price : ${tileData.price} \$\n Exp. Date : ${tileData.expiry_date}"),
+                    "\n Price : ${tileData.price} \$\n Exp. Date : ${tileData.expiry_date}\n Quantity : ${tileData.quantity}"),
                 ButtonBar(
                   alignment: MainAxisAlignment.spaceEvenly,
                   children: [
