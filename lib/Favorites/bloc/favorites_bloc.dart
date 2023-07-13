@@ -8,6 +8,7 @@ import 'package:meta/meta.dart';
 
 import '../../Home/models/products_model.dart';
 
+
 part 'favorites_event.dart';
 part 'favorites_state.dart';
 

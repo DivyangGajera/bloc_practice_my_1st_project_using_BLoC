@@ -8,6 +8,7 @@ class CartProducts {
   final int quantity;
   final String expiry_date;
   final double price;
+
   final String image_url;
 
   CartProducts(

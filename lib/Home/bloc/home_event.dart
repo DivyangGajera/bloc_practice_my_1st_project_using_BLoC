@@ -15,6 +15,7 @@ class AddToFavoritesEvent extends HomeEvent {
   AddToFavoritesEvent({required this.clickedProduct});
 }
 
+
 class AddToCartEvent extends HomeEvent {
   final Products clickedProduct;
 

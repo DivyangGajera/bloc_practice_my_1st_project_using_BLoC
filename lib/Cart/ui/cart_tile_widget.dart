@@ -9,6 +9,7 @@ class Cart_tile_widget extends StatelessWidget {
   final CartBloc cartBloc;
   IconData fav_icon;
   Cart_tile_widget(
+
       {super.key,
       required this.cartBloc,
       required this.tileData,

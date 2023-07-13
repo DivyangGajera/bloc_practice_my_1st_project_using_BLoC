@@ -62,3 +62,4 @@ class Favorites_tile_widget extends StatelessWidget {
     );
   }
 }
+

@@ -5,6 +5,7 @@ List<Products> favoritesList = [];
 List<CartProducts> cartList = [];
 
 
+
 //URI variables for products, favorites, and cart APIs
     Uri productsUrl = Uri.parse(
         "https://fir-a-to-z-default-rtdb.firebaseio.com/Products.json");

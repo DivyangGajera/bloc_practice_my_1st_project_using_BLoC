@@ -14,6 +14,7 @@ class FavoritesListLoadingErrorState extends FavoritesState {}
 class FavoritesListLoadedState extends FavoritesState {
   final List<Products> products;
 
+
   FavoritesListLoadedState({required this.products});
 }
 

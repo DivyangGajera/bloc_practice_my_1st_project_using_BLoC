@@ -15,6 +15,7 @@ class ProductTile extends StatelessWidget {
       this.fav_icon = Icons.favorite_border});
   Products tileData;
 
+
   @override
   Widget build(BuildContext context) {
     favoritesList.forEach(

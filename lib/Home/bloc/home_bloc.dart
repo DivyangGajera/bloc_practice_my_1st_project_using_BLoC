@@ -17,6 +17,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
 
   HomeBloc() : super(HomeInitial()) {
     on<AddToCartEvent>(addToCart);
+
     on<AddToFavoritesEvent>(addToFavorites);
     on<NavigateToFavoritesEvent>(navigateToFavorites);
     on<InitialHomeEvent>(initialHomeEvent);

@@ -12,6 +12,7 @@ class Products {
   Products(
       {required this.image_url,
       required this.name,
+
       required this.expiry_date,
       required this.price});
 

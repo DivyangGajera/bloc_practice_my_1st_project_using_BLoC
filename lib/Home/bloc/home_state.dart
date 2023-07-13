@@ -14,6 +14,7 @@ class DataLoadingErrorState extends HomeState {}
 class DataLoadedState extends HomeState {
   final List<Products> products;
 
+
   DataLoadedState({required this.products});
 }
 
