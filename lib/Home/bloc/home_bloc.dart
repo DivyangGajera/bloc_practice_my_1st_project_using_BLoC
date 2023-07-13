@@ -5,6 +5,7 @@ import 'package:bloc_practice/data/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:bloc/bloc.dart';
+import 'package:http/http.dart';
 import 'package:meta/meta.dart';
 import '../models/products_model.dart';
 
@@ -84,7 +85,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     }
   }
 
-  FutureOr<void> addToCart(AddToCartEvent event, Emitter<HomeState> emit) {
+  Future<FutureOr<void>> addToCart(AddToCartEvent event, Emitter<HomeState> emit) async {
     int quant = 1;
     bool added = false;
     CartProducts itemAtPos = CartProducts(
@@ -122,7 +123,9 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         // debugPrint("$cartList");
       }
     }
-
+    List<Map> listOfMaps = cartList.map((e) => CartProducts.productsToJson(e)).toList();
+    String upload = jsonEncode(listOfMaps);
+    await put(cartUrl,body: upload);
     // debugPrint("list is : $itemAtPos");
     print("AddToCart Executed");
   }

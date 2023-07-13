@@ -26,7 +26,7 @@ class CartProducts {
         price: double.tryParse("${jsonData['price']}") ?? 0.00);
   }
 
-  static productsToJson(CartProducts products) {
+  static Map productsToJson(CartProducts products) {
     Map data = {
       "name": products.name,
       "expiry_date": products.expiry_date,

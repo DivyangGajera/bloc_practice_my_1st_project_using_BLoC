@@ -59,28 +59,9 @@ class Cart_tile_widget extends StatelessWidget {
               children: [
                 Text(
                     "\n Price : ${tileData.price} \$\n Exp. Date : ${tileData.expiry_date}\n Quantity : ${tileData.quantity}"),
-                ButtonBar(
-                  alignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    IconButton(
-                      onPressed: () {
-                        // cartBloc.add(AddToFavoritesEvent(clickedProduct: tileData));
-                      },
-                      icon: Icon(
-                        fav_icon,
-                        color: Colors.pink,
-                      ),
-                    ),
-                    IconButton(
-                      onPressed: () {
-                        // cartBloc.add(AddToCartEvent(clickedProduct: tileData));
-                      },
-                      icon: const Icon(
-                        Icons.shopping_cart,
-                        color: Colors.pink,
-                      ),
-                    ),
-                  ],
+                Text(
+                  tileData.quantity.toString() + " Items  ",
+                  style: TextStyle(fontSize: 18),
                 ),
               ],
             ),
