@@ -1,0 +1,146 @@
+  {
+    "Favorites": [
+    ],
+    "Products": [
+      {
+        "name": "Apple iPhone 13 Pro",
+        "price": 999,
+        "quantity": 0,
+        "image_url": "https://img5.gadgetsnow.com/gd/images/products/additional/large/G306228_View_1/mobiles/smartphones/apple-iphone-13-pro-1-tb-gold-6-gb-ram-.jpg",
+        "expiry_date": "2024-01-01"
+      },
+      {
+        "name": "Samsung Galaxy S22 Ultra",
+        "price": 1199,
+        "quantity": 0,
+        "image_url": "https://m.media-amazon.com/images/I/41QPv5h1veL._SX300_SY300_QL70_FMwebp_.jpg",
+        "expiry_date": "2024-03-01"
+      },
+      {
+        "name": "MacBook Pro M1 Pro",
+        "price": 1499,
+        "quantity": 10,
+        "image_url": "https://img4.gadgetsnow.com/gd/images/products/additional/large/G313154_View_1/computer-laptop/laptops/apple-macbook-pro-mkgp3hn-apple-m1-pro-chip-14-2-inches-macbook-laptop-16gb-512gb-ssd-macos-monterey-grey-1-6-kg-.jpg",
+        "expiry_date": "2024-06-01"
+      },
+      {
+        "name": "AirPods Pro",
+        "price": 249,
+        "quantity": 20,
+        "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MQD83?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1660803972361",
+        "expiry_date": "2024-09-01"
+      },
+      {
+        "name": "iPad Pro 12.9-inch (5th generation)",
+        "price": 1099,
+        "quantity": 10,
+        "image_url": "https://media.croma.com/image/upload/v1667850476/Croma%20Assets/Computers%20Peripherals/Tablets%20and%20iPads/Images/234301_10_edo1sm.png",
+        "expiry_date": "2024-12-01"
+      },
+      {
+        "name": "Sony PlayStation 5",
+        "price": 499,
+        "quantity": 5,
+        "image_url": "https://m.media-amazon.com/images/I/51mWHXY8hyL._SX466_.jpg",
+        "expiry_date": "2025-03-01"
+      },
+      {
+        "name": "Xbox Series X",
+        "price": 499,
+        "quantity": 15,
+        "image_url": "https://www.reliancedigital.in/medias/Microsoft-Series-X-Gaming-Console-491934660-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyMDk4MzZ8aW1hZ2UvanBlZ3xpbWFnZXMvaGY2L2g2ZC85Mzg2MTgyMzQ0NzM0LmpwZ3xkMjIxOWY4MTAyMWFkZTE0Zjk3NDJmYjJiYjFlMTNmZjlkNWUyOTk3ZWNlNzg2YTk3YzZjNmMzMzRmNGU2MDIy",
+        "expiry_date": "2025-06-01"
+      },
+      {
+        "name": "Nintendo Switch OLED",
+        "price": 349,
+        "quantity": 20,
+        "image_url": "https://m.media-amazon.com/images/I/71kfz16POkS._SX342_.jpg",
+        "expiry_date": "2025-09-01"
+      },
+      {
+        "name": "Google Pixel 6 Pro",
+        "price": 899,
+        "quantity": 10,
+        "image_url": "https://www.addmecart.com/wp-content/uploads/2022/12/m1-77.png",
+        "expiry_date": "2025-12-01"
+      },
+      {
+        "name": "Dell XPS 13",
+        "price": 1299,
+        "quantity": 10,
+        "image_url": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9320/media-gallery/xs9320t-cnb-00005ff090-sl-oled.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=628&qlt=100,1&resMode=sharp2&size=628,402&chrss=full",
+        "expiry_date": "2025-03-01"
+      },
+      {
+        "name": "Lenovo ThinkPad X1 Carbon",
+        "price": 1499,
+        "quantity": 5,
+        "image_url": "https://img6.gadgetsnow.com/gd/images/products/additional/large/G436590_View_2/computer-laptop/laptops/lenovo-thinkpad-x1-carbon-intel-core-i7-1165g7-14-inches-notebook-laptop-16gb-512gb-ssd-windows-11-black-1-12-kg-.jpg",
+        "expiry_date": "2025-06-01"
+      },
+      {
+        "name": "HP Spectre x360",
+        "price": 1199,
+        "quantity": 15,
+        "image_url": "https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/8/2/824H9PA-3_T1681788532.png",
+        "expiry_date": "2025-09-01"
+      },
+      {
+        "name": "Bose QuietComfort 35 II",
+        "price": 299,
+        "quantity": 20,
+        "image_url": "https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc35_ii/product_silo_images/qc35_ii_black_EC_hero.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+        "expiry_date": "2025-12-01"
+      },
+      {
+        "name": "Sony WH-1000XM4",
+        "price": 349,
+        "quantity": 10,
+        "image_url": "https://m.media-amazon.com/images/I/71x8gW79x-L._SY450_.jpg",
+        "expiry_date": "2026-03-01"
+      },
+      {
+        "name": "Apple Watch Series 7",
+        "price": 399,
+        "quantity": 5,
+        "image_url": "https://m.media-amazon.com/images/I/71-i7pbrhnL._SX522_.jpg",
+        "expiry_date": "2026-06-01"
+      },
+      {
+        "name": "Samsung Galaxy Watch 4",
+        "price": 249,
+        "quantity": 15,
+        "image_url": "https://images.samsung.com/is/image/samsung/p6pim/in/2108/gallery/in-galaxy-watch4-398879-sm-r870nzkainu-481111391?$730_584_PNG$",
+        "expiry_date": "2026-09-01"
+      },
+      {
+        "name": "Anker Soundcore Life P3",
+        "price": 99,
+        "quantity": 20,
+        "image_url": "https://m.media-amazon.com/images/I/51MHmcjtOYL.jpg",
+        "expiry_date": "2026-12-01"
+      },
+      {
+        "name": "Jabra Elite 75t",
+        "price": 129,
+        "quantity": 10,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUynXN3ajAztLyFQR-Py1z_qn_jilXY8psyavFcr9WqrZh6P3zQPdd7xjNkyP_vnzJ9w4&usqp=CAU",
+        "expiry_date": "2027-03-01"
+      },
+      {
+        "name": "Google Pixel Buds A-Series",
+        "price": 99,
+        "quantity": 10,
+        "image_url": "https://m.media-amazon.com/images/I/61rPqsDQ-ZL.jpg",
+        "expiry_date": "2027-09-01"
+      },
+      {
+        "name": "Sennheiser Momentum True Wireless 3",
+        "price": 249,
+        "quantity": 5,
+        "image_url": "https://www.headphonezone.in/cdn/shop/products/Headphone-Zone-Sennheiser-MOMENTUM-True-Wireless-3-13.jpg?v=1657792049&width=1160",
+        "expiry_date": "2027-12-01"
+      }
+    ]
+  }
